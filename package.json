@@ -1,0 +1,28 @@
+{
+  "name": "nnotes-restapi",
+  "version": "1.0.0",
+  "description": "Notes App RestAPI for Cloud Computing Course",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cookie-parser": "^1.4.7",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.3",
+    "zod": "^3.23.6"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.21",
+    "@types/mongoose": "^5.11.97"
+  }
+}
