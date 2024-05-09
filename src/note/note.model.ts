@@ -2,6 +2,7 @@ import { Document, ObjectId, Schema, model } from 'mongoose';
 
 export interface INote {
     _id: any;
+    title: string;
     content: string;
     createdAt?: Date;
     updatedAt?: Date;
@@ -12,6 +13,9 @@ export type NoteDocument = Document<ObjectId, any, INote> & INote;
 
 const noteSchema = new Schema<INote>(
   {
+    title: {
+      type: String,
+    },
     content: {
       type: String,
     },
@@ -25,4 +29,4 @@ const noteSchema = new Schema<INote>(
   }
 );
 
-export const Note = model<INote>('Event', noteSchema);
+export const Note = model<INote>('Notes', noteSchema);
