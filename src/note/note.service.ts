@@ -27,9 +27,17 @@ async function deleteNote(_id: string) {
     return {message: 'Delete succesfull'};
 }
 
+async function getNoteById(_id: string) {
+    console.log('_id: ', _id);
+    const note = await Note.findOne({_id: _id});
+    if(!note) return {message: 'Error, note not found', status: 404}
+    return {message: note, status: 200};
+}
+
 export default {
     find,
     create,
     update,
     deleteNote,
+    getNoteById
 }
