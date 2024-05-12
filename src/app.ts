@@ -22,6 +22,4 @@ app.use(cookieParser());
 app.use(router);
 
 db().then(()=> console.log('Connected to Database'));
-app.listen(PORT, () => console.log(`Server ready on PORT ${PORT}`));
-
-
+app.listen(Number(PORT), '0.0.0.0', () => console.log(`Server ready on HOST 0.0.0.0 and PORT ${PORT}`));
