@@ -1,5 +1,5 @@
 [Unit]
-Description=Servicio del Back 1
+Description=Servicio de los back
 Documentation=https://github.com/italovisconti/NNotes-RestAPI/edit/main/src/services/back-1.service
 After=network.target
 
