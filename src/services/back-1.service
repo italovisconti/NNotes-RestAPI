@@ -1,0 +1,16 @@
+[Unit]
+Description=Servicio del Back 1
+Documentation=https://github.com/italovisconti/NNotes-RestAPI/edit/main/src/services/back-1.service
+After=network.target
+
+[Service]
+Environment=PORT=3001
+Type=simple
+User=ubuntu
+Restart=always
+RestartSec=10
+ExecStart=/opt/scripts/script.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
