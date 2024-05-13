@@ -4,7 +4,7 @@ Documentation=https://github.com/italovisconti/NNotes-RestAPI/edit/main/src/serv
 After=network.target
 
 [Service]
-Environment=PORT=3001
+Environment=PORT=3000
 Type=simple
 User=ubuntu
 Restart=always
