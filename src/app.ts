@@ -5,6 +5,7 @@ import {router} from './note/note.router'
 import bodyParser from 'body-parser';
 import cookieParser from 'cookie-parser';
 import db from "./mongo"
+import defaults from "./note/utils/defaults";
 
 const PORT = process.env.PORT || 3001;
 
@@ -22,6 +23,9 @@ app.use(cookieParser());
 app.use(router);
 
 db().then(()=> console.log('Connected to Database'));
-app.listen(PORT, () => console.log(`Server ready on PORT ${PORT}`));
+app.listen(PORT, async () => {
+  await defaults.create()
+  console.log(`Server ready on PORT ${PORT}`);
+});
 
 
