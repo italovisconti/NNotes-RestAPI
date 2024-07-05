@@ -1,0 +1,127 @@
+
+> nnotes-restapi@1.0.0 dev
+> nodemon ./src/app.ts
+
+[33m[nodemon] 3.1.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: ts,json[39m
+[32m[nodemon] starting `ts-node ./src/app.ts`[39m
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at errorOrDestroy (node:internal/streams/destroy:238:7)
+    at node:internal/fs/streams:272:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:686:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v20.11.1
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at doListen (node:net:2075:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+Scripts available in nnotes-restapi@1.0.0 via `npm run-script`:
+  dev
+    nodemon ./src/app.ts
+
+
+> nnotes-restapi@1.0.0 dev
+> nodemon ./src/app.ts
+
+[33m[nodemon] 3.1.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: ts,json[39m
+[32m[nodemon] starting `ts-node ./src/app.ts`[39m
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at errorOrDestroy (node:internal/streams/destroy:238:7)
+    at node:internal/fs/streams:272:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:686:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v20.11.1
+Server ready on HOST 0.0.0.0 and PORT 3005
+Connected to Database
+
+> nnotes-restapi@1.0.0 dev
+> nodemon ./src/app.ts
+
+[33m[nodemon] 3.1.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: ts,json[39m
+[32m[nodemon] starting `ts-node ./src/app.ts`[39m
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at errorOrDestroy (node:internal/streams/destroy:238:7)
+    at node:internal/fs/streams:272:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:686:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v20.11.1
+Server ready on HOST 0.0.0.0 and PORT 3006
+Connected to Database
+
+> nnotes-restapi@1.0.0 dev
+> nodemon ./src/app.ts
+
+[33m[nodemon] 3.1.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: ts,json[39m
+[32m[nodemon] starting `ts-node ./src/app.ts`[39m
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at errorOrDestroy (node:internal/streams/destroy:238:7)
+    at node:internal/fs/streams:272:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:686:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v20.11.1
+Server ready on HOST 0.0.0.0 and PORT 3007
+Connected to Database
+BODY:  { title: 'Nota eyyyy', content: 'hola esta es una nota' }
+RECORD:  { title: 'Nota eyyyy', content: 'hola esta es una nota' }
+Server ready on HOST 0.0.0.0 and PORT 3008
+Connected to Database
+BODY:  { title: 'Nota dasdasdasd', content: 'hola esta es una nota' }
+RECORD:  { title: 'Nota dasdasdasd', content: 'hola esta es una nota' }
